@@ -26,7 +26,7 @@ defmt = ["dep:defmt", "heapless/defmt-03", "embedded-io/defmt-03", "embedded-io-
 
 [dependencies]
 heapless = { version = "0.8" }
-embedded-io = { version = "0.6", default-features = false }
+embedded-io = { version = "0.5.0", default-features = false }
 embedded-io-async = { version = "0.6", default-features = false }
 log = { version = "0.4", default-features = false, optional = true }
 serde = { version = "1", default-features = false, features = ["derive"], optional = true }
